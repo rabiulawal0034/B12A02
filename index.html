@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .flower-shop-logo {
+            font-family: serif;
+            font-size: 2.5rem;
+            line-height: 1;
+        }
+        .flower-shop-logo span {
+            font-size: 0.8rem;
+            display: block;
+            margin-top: -0.5rem;
+        }
+        .text-orange-500-custom {
+            color: #FF5722;
+        }
+    </style>
+</head>
+<body class="font-sans">
+
+    <header class="bg-white py-4 px-8 shadow-sm">
+        <nav class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="assets/logo.png" alt="Faugei Flower Shop Logo" class="h-10 mr-2">
+            </div>
+
+            <ul class="flex space-x-6 items-center">
+                <li class="hidden md:block"><a href="#" class="text-gray-900 hover:text-gray-900">Home</a></li>
+                <li class="hidden md:block"><a href="#" class="text-gray-600 hover:text-gray-900">Shop</a></li>
+                <li class="hidden md:block"><a href="#" class="text-gray-600 hover:text-gray-900">About us</a></li>
+
+                <li>
+                    <a href="#" class="text-gray-600 hover:text-gray-900 flex items-center">
+                        <svg class="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                        Cart ($56)
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero-section" class="bg-gray-50 py-16">
+        <div class="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between px-8">
+            <div class="md:w-1/2 text-left mb-8 md:mb-0">
+                <h1 class="text-5xl font-bold leading-tight mb-4">
+                    <span class="text-gray-800">ALWAYS</span> <span class="text-orange-500-custom">FRESH</span>
+                    <br>
+                    <span class="text-orange-500-custom">FLOWERS</span>
+                </h1>
+                <p class="text-lg text-gray-600 leading-relaxed max-w-lg mx-auto md:mx-0">
+                    Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.
+                </p>
+            </div>
+            <div class="md:w-1/2 flex justify-center md:justify-end mb-8 md:mb-0">
+                <img src="/assets/hero-flower.png" alt="Beautiful Bouquet of Flowers" class="max-w-full h-auto rounded-lg">
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
